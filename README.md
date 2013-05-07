@@ -4,17 +4,19 @@ GitWorks
 This project aims at synthesizing views on GitHub repositories and the way commits are shared between forks. 
 The data have been collected and the images have been synthesized by marbiaz, monperrus and bbaudry
 
+![Peacock collaboration visualization for ACE](/images/ace.png)
+
 ##Intention
 
 The pictures presented in this project have two main intentions:
 * capture a single, global view on a project that is hosted on GitHub
 * vizualize the dynamics of commits among all the forks of a project
 
-For each project, we identify a main fork, and we focus on two specific kinds of commits that we define below:
+For each repository, we focus on two specific kinds of commits that we define below:
 
 <dl>
   <dt>iCommit</dt>
-  <dd>An iCommit is a commit that is present in the main fork of a project and in one and only one other fork</dd>
+  <dd>A iCommit is a commit that is present in the root fork of a reposiroty and in one and only one other fork</dd>
   <dt>uCommit</dt>
   <dd>A uCommit is a commit that is present in one single fork of the project</dd>
 </dl>
