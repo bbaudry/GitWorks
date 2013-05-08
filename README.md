@@ -9,7 +9,7 @@ Explanation
 ---------------
 We use a circle-based visualization.  A peacock picture includes three main elements, each of them displaying information about a repository.
 
-![Peacock legend](/images/picture-legend.jpg)
+![Peacock legend](/images/peacock-legend.png)
 
 ###The main circle 
 
