@@ -51,4 +51,4 @@ The galapos model emphasizes the presence of some forks that have many uCommits.
 ![Galapagos collaboration visualization for pyrocms](/images/pyrocms.png)
 ##Data and Tools
 The data have been collected by [marbiaz](https://github.com/marbiaz), [monperrus](https://github.com/monperrus) and [bbaudry](https://github.com/bbaudry) from github. 
-We have collected data about forks, authors and commits from 108 repositories that have more than 2 forks. Then we classified commits according to their type (iCommit, uCommit and other types that we do not visualize here). This data was then visualized with [circos](http://circos.ca/ "Circos"). The code to produce the peacocks is available in  [this project](GitWorks/src/"source code").
+We have collected data about forks, authors and commits from 108 repositories that have more than 2 forks. Then we classified commits according to their type (iCommit, uCommit and other types that we do not visualize here). This data was then visualized with [circos](http://circos.ca/ "Circos"). The code to produce the peacocks is available in  [this project](GitWorks/src/ "source code").
