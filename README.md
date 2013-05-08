@@ -21,7 +21,7 @@ Because of the very large numbers of forks and commits in some projects, we vizu
 ###Ribbons inside the main circle 
 
 There is one ribbon, called a **commit flow** between the main fork-stripe and each other fork-stripe. The width of a commit flow between the main fork and another fork *F* is equal to the number iCommits in *F*.
-A iCommit is a commit that is present in the main fork of a repository and in one and only one other fork
+A iCommit is a commit  made after the creation of a fork and in common with the  main fork.
 The color of the commit flow is also proportional to the number iCommits in *F* (over the maximum number of iCommits that appear in a single fork of the project).
  
 
@@ -50,5 +50,5 @@ In the seabird model, the main fork is forked multiple times. In this model, the
 The galapos model emphasizes the presence of some forks that have many uCommits. Our intuition is that many uCommits indicate a speciation inside a fork, probably one or several branches that are used to develop alternative solutions that are not shared with the other forks. [pyromcs](https://github.com/pyrocms/pyrocms) is an example in which the main fork has a very large UC-circle 
 ![Galapagos collaboration visualization for pyrocms](/images/pyrocms.png)
 ##Data and Tools
-The data have been collected by [marbiaz](https://github.com/marbiaz), [monperrus](https://github.com/monperrus) and [bbaudry](https://github.com/bbaudry) from github. 
+The data have been collected from github by [marbiaz](https://github.com/marbiaz), [monperrus](https://github.com/monperrus) and [bbaudry](https://github.com/bbaudry) who are supported by the [DIVERSIFY project](http://www.diversify-project.eu/ "DIVERSIFY") . 
 We have collected data about forks, authors and commits from 108 repositories that have more than 2 forks. Then we classified commits according to their type (iCommit, uCommit and other types that we do not visualize here). This data was then visualized with [circos](http://circos.ca/ "Circos"). The code to produce the peacocks is available in  [this project](GitWorks/src/ "source code").
